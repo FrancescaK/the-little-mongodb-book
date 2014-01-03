@@ -511,7 +511,7 @@ Prior to version 1.8, MongoDB didn't have single-server durability. That is, a s
 Durability is only mentioned here because a lot has been made around MongoDB's lack of single-server durability. This'll likely show up in Google searches for some time to come. Information you find about this missing feature is simply out of date.
 
 ## Full Text Search ##
-True full text search capability is something that'll hopefully come to MongoDB in a future release. With its support for arrays, basic full text search is pretty easy to implement. For something more powerful, you'll need to rely on a solution such as Lucene/Solr. Of course, this is also true of many relational databases.
+MongoDB provides text indexes to supports [Text Search](http://docs.mongodb.org/manual/core/index-text/) in versions 2.4 and beyond. With its support for arrays, basic full text search is pretty easy to implement. For something more powerful, you'll need to rely on a solution such as Lucene/Solr. Of course, this is also true of many relational databases.
 
 ## Transactions ##
 MongoDB doesn't have transactions. It has two alternatives, one which is great but with limited use, and the other that is cumbersome but flexible.
